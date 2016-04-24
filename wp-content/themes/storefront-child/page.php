@@ -25,8 +25,10 @@
 	<?php
 	do_action( 'storefront_before_header' ); ?>
 
+<!--
 	<header id="masthead" class="site-header" role="banner" <?php if ( get_header_image() != '' ) { echo 'style="background-image: url(' . esc_url( get_header_image() ) . ');"'; } ?>>
 		<div class="col-full">
+-->
 
 			<?php
 			/**
@@ -38,19 +40,21 @@
 			 * @hooked storefront_primary_navigation - 50
 			 * @hooked storefront_header_cart - 60
 			 */
-			do_action( 'storefront_header' ); ?>
+			// do_action( 'storefront_header' ); ?>
 
+<!--
 		</div>
-	</header><!-- #masthead -->
+	</header>
+--><!-- #masthead -->
 
 	<?php
 	/**
 	 * @hooked storefront_header_widget_region - 10
 	 */
-	do_action( 'storefront_before_content' ); ?>
+	//do_action( 'storefront_before_content' ); ?>
 
-	<div id="content" class="garrett site-content" tabindex="-1">
-		<div class="col-full">
+<!-- 	<div id="content" class="garrett site-content" tabindex="-1"> -->
+<!-- 		<div class="col-full"> -->
 
 		<?php
 		/**
@@ -58,8 +62,10 @@
 		 */
 		do_action( 'storefront_content_top' ); ?>
 
+<!--
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+-->
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -78,12 +84,12 @@
 
 			<?php endwhile; // end of the loop. ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+<!-- 		</main> --><!-- #main -->
+<!-- 	</div> --><!-- #primary -->
 
 <?php  // do_action( 'storefront_sidebar' ); ?>
-		</div><!-- .col-full -->
-	</div><!-- #content -->
+<!-- 		</div> --><!-- .col-full -->
+<!-- 	</div> --><!-- #content -->
 
 	<?php do_action( 'storefront_before_footer' ); ?>
 

@@ -1,0 +1,26 @@
+@import 'susy';
+@import '../../../../themes/storefront/sass/utils/variables';
+
+.woocommerce-checkout.scc-distraction-free-checkout {
+	.site-header {
+		margin-bottom: 2.618em;
+
+		.site-logo-link {
+			margin-bottom: 2.618em;
+		}
+	}
+
+	&.page-template-default {
+		.content-area {
+			@include span(8 of 12);
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+	&.sd-header-sticky {
+		.site-content {
+			padding-top: 2.618em;
+		}
+	}
+}

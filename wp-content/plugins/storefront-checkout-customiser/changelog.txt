@@ -1,0 +1,34 @@
+*** Storefront Checkout Customiser Changelog ***
+
+2016.03.08 - version 1.1.4
+* Fix - Proceed/Back buttons on two-step-checkout will now correctly scroll to the top of the page on handheld devices.
+
+2016.02.03 - version 1.1.3
+* Tweak - Made it clearer how / where to find the Checkout customiser options.
+
+2015.12.02 - version 1.1.2
+* Tweak - Further integration with Storefront 1.6.0's sticky payment form on the checkout.
+
+2015.11.30 - version 1.1.1
+* Tweak - Integration with Storefront 1.6.0's sticky payment form on the checkout.
+
+2015.04.18 - version 1.1.0
+* New - 'Proceed' button in two step checkout now has button styling.
+* Fix - 'Proceed' button positioning.
+* Tweak - Only display checkout options in the Customizer while on the checkout.
+* Dev - Updated FlexSlider to 2.5.0.
+
+2015.03.12 - version 1.0.4
+* Fix - Two column address layout when using two step checkout option.
+
+2015.02.20 - version 1.0.3
+* Fix - Two step checkout layout when using default page template for checkout.
+
+2015.02.03 - version 1.0.2
+* Tweak - Improved integration with Amazon Payment Advanced gateway.
+
+2015.01.27 - version 1.0.1
+* Tweak - Hide the 'More' section in the Customizer.
+
+2015.01.19 - version 1.0.0
+* Initial release

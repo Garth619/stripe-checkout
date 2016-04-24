@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+  .scc-stacked .col2-set,
+  .scc-stacked #order_review_heading,
+  .scc-stacked #order_review {
+    width: 100%;
+    float: none;
+    clear: both; }
+  .scc-stacked .col2-set .col-1,
+  .scc-stacked .col2-set .col-2 {
+    width: 100%;
+    float: none; }
+    .scc-stacked .col2-set .col-1 .form-row-first,
+    .scc-stacked .col2-set .col-2 .form-row-first {
+      width: 41.17647%;
+      float: left;
+      margin-right: 5.88235%; }
+    .scc-stacked .col2-set .col-1 .form-row-last,
+    .scc-stacked .col2-set .col-2 .form-row-last {
+      width: 52.94118%;
+      float: right;
+      margin-right: 0;
+      float: right;
+      margin-right: 0;
+      margin-right: 0; }
+  .scc-stacked.page-template-template-fullwidth-php .col2-set,
+  .scc-stacked.page-template-template-fullwidth-php #order_review_heading,
+  .scc-stacked.page-template-template-fullwidth-php #order_review {
+    width: 100%;
+    float: none;
+    clear: both; }
+  .scc-stacked.page-template-template-fullwidth-php .col2-set .col-1,
+  .scc-stacked.page-template-template-fullwidth-php .col2-set .col-2 {
+    width: 100%;
+    float: none; }
+    .scc-stacked.page-template-template-fullwidth-php .col2-set .col-1 .form-row-first,
+    .scc-stacked.page-template-template-fullwidth-php .col2-set .col-2 .form-row-first {
+      width: 47.82609%;
+      float: left;
+      margin-right: 4.34783%; }
+    .scc-stacked.page-template-template-fullwidth-php .col2-set .col-1 .form-row-last,
+    .scc-stacked.page-template-template-fullwidth-php .col2-set .col-2 .form-row-last {
+      width: 47.82609%;
+      float: right;
+      margin-right: 0;
+      float: right;
+      margin-right: 0;
+      margin-left: 0; }
+
+  .scc-two-column-addreses .col2-set,
+  .scc-two-column-addreses #order_review_heading,
+  .scc-two-column-addreses #order_review {
+    width: 100%;
+    float: none; }
+  .scc-two-column-addreses .col2-set:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .scc-two-column-addreses .col2-set .col-1 {
+    width: 41.17647%;
+    float: left;
+    margin-right: 5.88235%; }
+  .scc-two-column-addreses .col2-set .col-2 {
+    width: 52.94118%;
+    float: right;
+    margin-right: 0;
+    float: right;
+    margin-right: 0;
+    margin-left: 0; }
+  .scc-two-column-addreses .col2-set .form-row-first,
+  .scc-two-column-addreses .col2-set .form-row-last {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    float: none; }
+  .scc-two-column-addreses.page-template-template-fullwidth-php .col2-set,
+  .scc-two-column-addreses.page-template-template-fullwidth-php #order_review_heading,
+  .scc-two-column-addreses.page-template-template-fullwidth-php #order_review {
+    width: 100%;
+    float: none; }
+  .scc-two-column-addreses.page-template-template-fullwidth-php .col2-set .col-1 {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%; }
+  .scc-two-column-addreses.page-template-template-fullwidth-php .col2-set .col-2 {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+    float: right;
+    margin-right: 0;
+    margin-left: 0; } }
