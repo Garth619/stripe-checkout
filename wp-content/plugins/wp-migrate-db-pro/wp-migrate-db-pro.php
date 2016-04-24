@@ -4,8 +4,11 @@ Plugin Name: WP Migrate DB Pro
 Plugin URI: http://deliciousbrains.com/wp-migrate-db-pro/
 Description: Export, push, and pull to migrate your WordPress databases.
 Author: Delicious Brains
-Version: 1.3.4
+Version: 1.5.5
 Author URI: http://deliciousbrains.com
+Network: True
+Text Domain: wp-migrate-db
+Domain Path: /languages/
 */
 
 // Copyright (c) 2013 Delicious Brains. All rights reserved.
@@ -19,37 +22,96 @@ Author URI: http://deliciousbrains.com
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 // **********************************************************************
 
-$GLOBALS['wpmdb_meta']['wp-migrate-db-pro']['version'] = '1.3.4';
-$GLOBALS['wpmdb_meta']['wp-migrate-db-pro']['folder'] = basename( plugin_dir_path( __FILE__ ) );
+$GLOBALS['wpmdb_meta']['wp-migrate-db-pro']['version'] = '1.5.5';
+$GLOBALS['wpmdb_meta']['wp-migrate-db-pro']['folder']  = basename( plugin_dir_path( __FILE__ ) );
+$GLOBALS['wpmdb_meta']['wp-migrate-db-pro']['abspath'] = dirname( __FILE__ );
 
-if ( version_compare( PHP_VERSION, '5.2', '<' ) ) {
-	// Thanks for this Yoast!
-	if ( is_admin() && ( !defined( 'DOING_AJAX' ) || !DOING_AJAX ) ) {
-		require_once ABSPATH.'/wp-admin/includes/plugin.php';
-		deactivate_plugins( __FILE__ );
-		wp_die( __('WP Migrate DB Pro requires PHP 5.2 or higher, as does WordPress 3.2 and higher. The plugin has now disabled itself.', 'wp-migrate-db' ) );
-	}
+if ( ! class_exists( 'WPMDB_Utils' ) ) {
+	require dirname( __FILE__ ) . '/class/wpmdb-utils.php';
 }
 
-// Define the directory seperator if it isn't already
-if( !defined( 'DS' ) ) {
-	if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
-		define('DS', '\\');
+/**
+ * once all plugins are loaded, load up the rest of this plugin
+ *
+ * @return boolean
+ */
+function wp_migrate_db_pro_loaded() {
+
+	// load if it is wp-cli, so that version update will show in wp-cli
+	if ( defined( 'WP_CLI' ) && WP_CLI ) {
+		wp_migrate_db_pro();
+
+		return true;
 	}
-	else {
-		define('DS', '/');
+
+	// exit quickly unless: standalone admin; multisite network admin; one of our AJAX calls
+	if ( ! is_admin() || ( is_multisite() && ! is_network_admin() && ! WPMDB_Utils::is_ajax() ) ) {
+		return false;
 	}
+
+	wp_migrate_db_pro();
+
+	return true;
 }
 
-function wp_migrate_db_pro_init() {
-	if ( !is_admin() ) return;
+add_action( 'plugins_loaded', 'wp_migrate_db_pro_loaded' );
 
-	require_once 'class/wpmdbpro-base.php';
-	require_once 'class/wpmdbpro-addon.php';
-	require_once 'class/wpmdbpro.php';
-
+/**
+ * Populate the $wpmdbpro global with an instance of the WPMDBPro class and return it.
+ *
+ * @return WPMDBPro The one true global instance of the WPMDBPro class.
+ */
+function wp_migrate_db_pro() {
 	global $wpmdbpro;
+
+	if ( ! is_null( $wpmdbpro ) ) {
+		return $wpmdbpro;
+	}
+
+	$abspath = dirname( __FILE__ );
+
+	require_once $abspath . '/class/wpmdb-base.php';
+	require_once $abspath . '/class/wpmdbpro-addon.php';
+	require_once $abspath . '/class/wpmdb.php';
+	require_once $abspath . '/class/wpmdb-replace.php';
+	require_once $abspath . '/class/wpmdbpro.php';
+	require_once $abspath . '/class/wpmdb-sanitize.php';
+	require_once $abspath . '/class/wpmdb-migration-state.php';
+	require_once $abspath . '/class/wpmdb-filesystem.php';
+
 	$wpmdbpro = new WPMDBPro( __FILE__ );
+
+	return $wpmdbpro;
 }
 
-add_action( 'init', 'wp_migrate_db_pro_init', 5 );
+function wpmdb_pro_cli_loaded() {
+	// register with wp-cli if it's running, and command hasn't already been defined elsewhere
+	if ( defined( 'WP_CLI' ) && WP_CLI && ! class_exists( 'WPMDB_Command' ) ) {
+		require_once dirname( __FILE__ ) . '/class/wpmdbpro-command.php';
+	}
+}
+add_action( 'plugins_loaded', 'wpmdb_pro_cli_loaded', 20 );
+
+function wpmdb_pro_cli() {
+	global $wpmdbpro_cli;
+
+	if ( ! is_null( $wpmdbpro_cli ) ) {
+		return $wpmdbpro_cli;
+	}
+
+	if ( function_exists( 'wp_migrate_db_pro' ) ) {
+		wp_migrate_db_pro();
+	} else {
+		return false;
+	}
+	do_action( 'wp_migrate_db_pro_cli_before_load' );
+
+	require_once dirname( __FILE__ ) . '/class/wpmdbpro-cli-export.php';
+	$wpmdbpro_cli = new WPMDBPro_CLI_Export( __FILE__ );
+
+	do_action( 'wp_migrate_db_pro_cli_after_load' );
+
+	return $wpmdbpro_cli;
+}
+
+add_action( 'activated_plugin', array( 'WPMDB_Utils', 'deactivate_other_instances' ) );
