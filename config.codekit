@@ -8650,6 +8650,161 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityformscoupons\/class-gf-coupons.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/class-gf-coupons.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/class-gf-field-coupon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/class-gf-field-coupon.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/coupons.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/coupons.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/css\/gcoupons.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/css\/gcoupons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/css\/gcoupons.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/css\/gcoupons.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/active0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1266,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/active0.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/active0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/active1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1273,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/active1.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/active1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/alert.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1136,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/alert.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/alert.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/calendar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/calendar.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/calendar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/coupon_wordpress_icon_32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1340,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/coupon_wordpress_icon_32.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/coupon_wordpress_icon_32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/remove.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1210,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/remove.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/remove.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/tick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1298,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/tick.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/tick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/images\/tooltip_tip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/tooltip_tip.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/images\/tooltip_tip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/js\/coupons.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/js\/coupons.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/js\/min\/coupons-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityformscoupons\/js\/coupons.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/js\/coupons.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityformscoupons\/js\/min\/coupons.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityformsstripe\/class-gf-stripe.php": {
 		"fileType": 8192,
 		"ignore": 0,
