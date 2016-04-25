@@ -24,7 +24,7 @@ if ( ! wc_coupons_enabled() ) {
 }
 
 if ( ! WC()->cart->applied_coupons ) {
-    $info_message = apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon garrett?', 'woocommerce' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code garrett', 'woocommerce' ) . '</a>' );
+    $info_message = apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'woocommerce' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'woocommerce' ) . '</a>' );
     wc_print_notice( $info_message, 'notice' );
 }
 ?>
@@ -36,7 +36,7 @@ if ( ! WC()->cart->applied_coupons ) {
 	</p>
 
 	<p class="form-row form-row-last">
-		<input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon garrett', 'woocommerce' ); ?>" />
+		<input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'woocommerce' ); ?>" />
 	</p>
 
 	<div class="clear"></div>

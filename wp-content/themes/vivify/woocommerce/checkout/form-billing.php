@@ -29,9 +29,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php else : ?>
 
-		<h3><?php _e( 'Billing Details', 'woocommerce' ); ?></h3>
+<!-- 		<h3><?php _e( 'Billing Details', 'woocommerce' ); ?></h3> -->
 
 	<?php endif; ?>
+	
 
 	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
