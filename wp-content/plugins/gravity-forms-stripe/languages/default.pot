@@ -1,0 +1,1448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms + Stripe\n"
+"POT-Creation-Date: 2015-03-18 00:05-0500\n"
+"PO-Revision-Date: 2015-03-18 00:05-0500\n"
+"Last-Translator: Naomi C. Bush <hello@naomicbush.com>\n"
+"Language-Team: gravity+ <support@gravityplus.pro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../includes/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-gfp-stripe-list-table.php:25 class-gfp-stripe.php:2821
+#: views/form-settings-edit-feed.php:8 views/form-settings-edit-feed.php:15
+msgid "Rule Name"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:26 class-gfp-stripe.php:2822
+msgid "Transaction Type"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:88 class-gfp-stripe-list-table.php:89
+#: class-gfp-stripe.php:3278
+msgid "Active"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:88 class-gfp-stripe-list-table.php:89
+#: class-gfp-stripe.php:3277
+msgid "Inactive"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:97
+msgid "Edit this item"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:97
+msgid "Edit"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:98
+msgid "Delete this item"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:98
+msgid "WARNING: You are about to delete this Stripe rule."
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:98
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:98
+msgid "Delete"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:132
+msgid "One-Time Payment"
+msgstr ""
+
+#: class-gfp-stripe-list-table.php:140
+#, php-format
+msgid "You currently don't have any Stripe Rules, let's go %screate one%s"
+msgstr ""
+
+#: class-gfp-stripe.php:97
+#, php-format
+msgid "There is already an instance of %s."
+msgstr ""
+
+#: class-gfp-stripe.php:181
+msgid "You must install and activate Gravity Forms first."
+msgstr ""
+
+#: class-gfp-stripe.php:282
+msgid "Gravity Forms + Stripe requires at least Gravity Forms "
+msgstr ""
+
+#: class-gfp-stripe.php:471
+#, php-format
+msgid ""
+"You need to %supgrade your Stripe API to the latest version%s in your Stripe "
+"dashboard"
+msgstr ""
+
+#: class-gfp-stripe.php:625
+msgid "Settings"
+msgstr ""
+
+#: class-gfp-stripe.php:646 class-gfp-stripe.php:2700
+#, php-format
+msgid "%sGet important updates%s"
+msgstr ""
+
+#: class-gfp-stripe.php:648
+#, php-format
+msgid "%sFollow on Twitter%s"
+msgstr ""
+
+#: class-gfp-stripe.php:778
+msgid "Basic Setup"
+msgstr ""
+
+#: class-gfp-stripe.php:784
+#: views/form-settings-stripe-help-troubleshooting.php:3
+msgid "Troubleshooting"
+msgstr ""
+
+#: class-gfp-stripe.php:997
+msgid "Your Stripe account allows these currencies."
+msgstr ""
+
+#: class-gfp-stripe.php:999
+#, php-format
+msgid "Your %sStripe settings%s are not filled in -- using default currency."
+msgstr ""
+
+#: class-gfp-stripe.php:1006
+msgid "United States Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1016
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: class-gfp-stripe.php:1026
+msgid "Afghan Afghani"
+msgstr ""
+
+#: class-gfp-stripe.php:1036
+msgid "Albanian Lek"
+msgstr ""
+
+#: class-gfp-stripe.php:1046
+msgid "Armenian Dram"
+msgstr ""
+
+#: class-gfp-stripe.php:1056
+msgid "Netherlands Antillean Gulden"
+msgstr ""
+
+#: class-gfp-stripe.php:1066
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: class-gfp-stripe.php:1076
+msgid "Argentine Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1086
+msgid "Australian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1096
+msgid "Aruban Florin"
+msgstr ""
+
+#: class-gfp-stripe.php:1106
+msgid "Azerbaijani Manat"
+msgstr ""
+
+#: class-gfp-stripe.php:1116
+msgid "Bosnia & Herzegovina Convertible Mark"
+msgstr ""
+
+#: class-gfp-stripe.php:1126
+msgid "Barbadian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1136
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: class-gfp-stripe.php:1146
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: class-gfp-stripe.php:1156
+msgid "Burundian Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1166
+msgid "Bermudian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1176
+msgid "Brunei Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1186
+msgid "Bolivian Boliviano"
+msgstr ""
+
+#: class-gfp-stripe.php:1196
+msgid "Brazilian Real"
+msgstr ""
+
+#: class-gfp-stripe.php:1206
+msgid "Bahamian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1216
+msgid "Botswana Pula"
+msgstr ""
+
+#: class-gfp-stripe.php:1226
+msgid "Belize Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1236
+msgid "Canadian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1246
+msgid "Congolese Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1256
+msgid "Swiss Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1266
+msgid "Chilean Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1276
+msgid "Chinese Renminbi Yuan"
+msgstr ""
+
+#: class-gfp-stripe.php:1286
+msgid "Colombian Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1296
+msgid "Costa Rican Colón"
+msgstr ""
+
+#: class-gfp-stripe.php:1306
+msgid "Cape Verdean Escudo"
+msgstr ""
+
+#: class-gfp-stripe.php:1316
+msgid "Czech Koruna"
+msgstr ""
+
+#: class-gfp-stripe.php:1326
+msgid "Djiboutian Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1336
+msgid "Danish Krone"
+msgstr ""
+
+#: class-gfp-stripe.php:1346
+msgid "Dominican Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1356
+msgid "Algerian Dinar"
+msgstr ""
+
+#: class-gfp-stripe.php:1366
+msgid "Estonian Kroon"
+msgstr ""
+
+#: class-gfp-stripe.php:1376
+msgid "Egyptian Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:1386
+msgid "Ethiopian Birr"
+msgstr ""
+
+#: class-gfp-stripe.php:1396
+msgid "Euro"
+msgstr ""
+
+#: class-gfp-stripe.php:1406
+msgid "Fijian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1416
+msgid "Falkland Islands Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:1426
+msgid "British Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:1436
+msgid "Georgian Lari"
+msgstr ""
+
+#: class-gfp-stripe.php:1446
+msgid "Gibraltar Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:1456
+msgid "Gambian Dalasi"
+msgstr ""
+
+#: class-gfp-stripe.php:1466
+msgid "Guinean Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1476
+msgid "Guatemalan Quetzal"
+msgstr ""
+
+#: class-gfp-stripe.php:1486
+msgid "Guyanese Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1496
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1506
+msgid "Honduran Lempira"
+msgstr ""
+
+#: class-gfp-stripe.php:1516
+msgid "Croatian Kuna"
+msgstr ""
+
+#: class-gfp-stripe.php:1526
+msgid "Haitian Gourde"
+msgstr ""
+
+#: class-gfp-stripe.php:1536
+msgid "Hungarian Forint"
+msgstr ""
+
+#: class-gfp-stripe.php:1546
+msgid "Indonesian Rupiah"
+msgstr ""
+
+#: class-gfp-stripe.php:1556
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: class-gfp-stripe.php:1566
+msgid "Indian Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:1576
+msgid "Icelandic Króna"
+msgstr ""
+
+#: class-gfp-stripe.php:1586
+msgid "Jamaican Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1596
+msgid "Japanese Yen"
+msgstr ""
+
+#: class-gfp-stripe.php:1606
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: class-gfp-stripe.php:1616
+msgid "Kyrgyzstani Som"
+msgstr ""
+
+#: class-gfp-stripe.php:1626
+msgid "Cambodian Riel"
+msgstr ""
+
+#: class-gfp-stripe.php:1636
+msgid "Comorian Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:1646
+msgid "South Korean Won"
+msgstr ""
+
+#: class-gfp-stripe.php:1656
+msgid "Cayman Islands Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1666
+msgid "Kazakhstani Tenge"
+msgstr ""
+
+#: class-gfp-stripe.php:1676
+msgid "Lao Kip"
+msgstr ""
+
+#: class-gfp-stripe.php:1686
+msgid "Lebanese Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:1696
+msgid "Sri Lankan Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:1706
+msgid "Liberian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1716
+msgid "Lesotho Loti"
+msgstr ""
+
+#: class-gfp-stripe.php:1726
+msgid "Lithuanian Litas"
+msgstr ""
+
+#: class-gfp-stripe.php:1736
+msgid "Latvian Lats"
+msgstr ""
+
+#: class-gfp-stripe.php:1746
+msgid "Moroccan Dirham"
+msgstr ""
+
+#: class-gfp-stripe.php:1756
+msgid "Moldovan Leu"
+msgstr ""
+
+#: class-gfp-stripe.php:1766
+msgid "Malagasy Ariary"
+msgstr ""
+
+#: class-gfp-stripe.php:1776
+msgid "Macedonian Denar"
+msgstr ""
+
+#: class-gfp-stripe.php:1786
+msgid "Mongolian Tögrög"
+msgstr ""
+
+#: class-gfp-stripe.php:1796
+msgid "Macanese Pataca"
+msgstr ""
+
+#: class-gfp-stripe.php:1806
+msgid "Mauritanian Ouguiya"
+msgstr ""
+
+#: class-gfp-stripe.php:1816
+msgid "Mauritian Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:1826
+msgid "Maldivian Rufiyaa"
+msgstr ""
+
+#: class-gfp-stripe.php:1836
+msgid "Malawian Kwacha"
+msgstr ""
+
+#: class-gfp-stripe.php:1846
+msgid "Mexican Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1856
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: class-gfp-stripe.php:1866
+msgid "Mozambican Metical"
+msgstr ""
+
+#: class-gfp-stripe.php:1876
+msgid "Namibian Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1886
+msgid "Nigerian Naira"
+msgstr ""
+
+#: class-gfp-stripe.php:1896
+msgid "Nicaraguan Córdoba"
+msgstr ""
+
+#: class-gfp-stripe.php:1906
+msgid "Norwegian Krone"
+msgstr ""
+
+#: class-gfp-stripe.php:1916
+msgid "Nepalese Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:1926
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:1936
+msgid "Panamanian Balboa"
+msgstr ""
+
+#: class-gfp-stripe.php:1946
+msgid "Peruvian Nuevo Sol"
+msgstr ""
+
+#: class-gfp-stripe.php:1956
+msgid "Papua New Guinean Kina"
+msgstr ""
+
+#: class-gfp-stripe.php:1966
+msgid "Philippine Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:1976
+msgid "Pakistani Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:1986
+msgid "Polish Złoty"
+msgstr ""
+
+#: class-gfp-stripe.php:1996
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: class-gfp-stripe.php:2006
+msgid "Qatari Riyal"
+msgstr ""
+
+#: class-gfp-stripe.php:2016
+msgid "Romanian Leu"
+msgstr ""
+
+#: class-gfp-stripe.php:2026
+msgid "Serbian Dinar"
+msgstr ""
+
+#: class-gfp-stripe.php:2036
+msgid "Russian Ruble"
+msgstr ""
+
+#: class-gfp-stripe.php:2046
+msgid "Rwandan Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:2056
+msgid "Saudi Riyal"
+msgstr ""
+
+#: class-gfp-stripe.php:2066
+msgid "Solomon Islands Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2076
+msgid "Seychellois Rupee"
+msgstr ""
+
+#: class-gfp-stripe.php:2086
+msgid "Swedish Krona"
+msgstr ""
+
+#: class-gfp-stripe.php:2096
+msgid "Singapore Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2106
+msgid "Saint Helenian Pound"
+msgstr ""
+
+#: class-gfp-stripe.php:2116
+msgid "Sierra Leonean Leone"
+msgstr ""
+
+#: class-gfp-stripe.php:2126
+msgid "Somali Shilling"
+msgstr ""
+
+#: class-gfp-stripe.php:2136
+msgid "Surinamese Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2146
+msgid "São Tomé and Príncipe Dobra"
+msgstr ""
+
+#: class-gfp-stripe.php:2156
+msgid "Salvadoran Colón"
+msgstr ""
+
+#: class-gfp-stripe.php:2166
+msgid "Swazi Lilangeni"
+msgstr ""
+
+#: class-gfp-stripe.php:2176
+msgid "Thai Baht"
+msgstr ""
+
+#: class-gfp-stripe.php:2186
+msgid "Tajikistani Somoni"
+msgstr ""
+
+#: class-gfp-stripe.php:2196
+msgid "Tongan Paʻanga"
+msgstr ""
+
+#: class-gfp-stripe.php:2206
+msgid "Turkish Lira"
+msgstr ""
+
+#: class-gfp-stripe.php:2216
+msgid "Trinidad and Tobago Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2226
+msgid "New Taiwan Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2236
+msgid "Tanzanian Shilling"
+msgstr ""
+
+#: class-gfp-stripe.php:2246
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: class-gfp-stripe.php:2256
+msgid "Ugandan Shilling"
+msgstr ""
+
+#: class-gfp-stripe.php:2266
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: class-gfp-stripe.php:2276
+msgid "Uzbekistani Som"
+msgstr ""
+
+#: class-gfp-stripe.php:2286
+msgid "Venezuelan Bolívar"
+msgstr ""
+
+#: class-gfp-stripe.php:2296
+msgid "Vietnamese Đồng"
+msgstr ""
+
+#: class-gfp-stripe.php:2306
+msgid "Vanuatu Vatu"
+msgstr ""
+
+#: class-gfp-stripe.php:2316
+msgid "Samoan Tala"
+msgstr ""
+
+#: class-gfp-stripe.php:2326
+msgid "Central African Cfa Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:2336
+msgid "East Caribbean Dollar"
+msgstr ""
+
+#: class-gfp-stripe.php:2346
+msgid "West African Cfa Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:2356
+msgid "Cfp Franc"
+msgstr ""
+
+#: class-gfp-stripe.php:2366
+msgid "Yemeni Rial"
+msgstr ""
+
+#: class-gfp-stripe.php:2376
+msgid "South African Rand"
+msgstr ""
+
+#: class-gfp-stripe.php:2386
+msgid "Zambian Kwacha"
+msgstr ""
+
+#: class-gfp-stripe.php:2436
+msgid "Signing Up..."
+msgstr ""
+
+#: class-gfp-stripe.php:2438
+msgid "Please enter an email address"
+msgstr ""
+
+#: class-gfp-stripe.php:2439
+msgid "All Set!"
+msgstr ""
+
+#: class-gfp-stripe.php:2449
+#, php-format
+msgid ""
+"Gravity Forms Stripe Add-On has been successfully uninstalled. It can be re-"
+"activated from the %splugins page%s."
+msgstr ""
+
+#: class-gfp-stripe.php:2505 views/form-settings-stripe.php:3
+msgid " Stripe Settings"
+msgstr ""
+
+#: class-gfp-stripe.php:2513 class-gfp-stripe.php:2826
+msgid "gravity+ Support License Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2532
+#, php-format
+msgid ""
+"The license key is used for access to %s+(More) Stripe%s automatic upgrades "
+"and support. Activate +(More) Stripe to enter your license key."
+msgstr ""
+
+#: class-gfp-stripe.php:2544
+msgid "Stripe Account Information"
+msgstr ""
+
+#: class-gfp-stripe.php:2548
+#, php-format
+msgid ""
+"Stripe is a payment gateway for merchants. Use Gravity Forms to collect "
+"payment information and automatically integrate to your client's Stripe "
+"account. If you don't have a Stripe account, you can %ssign up for one here%s"
+msgstr ""
+
+#: class-gfp-stripe.php:2554
+msgid "API Mode"
+msgstr ""
+
+#: class-gfp-stripe.php:2560
+msgid "Live"
+msgstr ""
+
+#: class-gfp-stripe.php:2564
+msgid "Test"
+msgstr ""
+
+#: class-gfp-stripe.php:2569
+#, php-format
+msgid ""
+"You can find your <strong>Stripe API keys</strong> needed below in your "
+"Stripe dashboard 'Account Settings' %shere%s"
+msgstr ""
+
+#: class-gfp-stripe.php:2574
+msgid "Test Secret Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2585
+msgid "Test Publishable Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2597
+msgid "Live Secret Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2622
+msgid "Live Publishable Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2652
+msgid "Broken and difficult to use plugins suck! "
+msgstr ""
+
+#: class-gfp-stripe.php:2655
+msgid "But that doesn't have to be your experience. "
+msgstr ""
+
+#: class-gfp-stripe.php:2661
+msgid "Enable completely anonymous usage stats,"
+msgstr ""
+
+#: class-gfp-stripe.php:2664
+msgid ""
+"so I know which themes, plugins,\n"
+"\t\t\t\tand configurations to test with to keep your site working!"
+msgstr ""
+
+#: class-gfp-stripe.php:2675
+#, php-format
+msgid ""
+"Yes, I want to make sure this plugin works on my site (and <span style="
+"\"color: #07a501; font-weight: bold;\">receive 10% off any gravity+ service</"
+"span>)."
+msgstr ""
+
+#: class-gfp-stripe.php:2686
+msgid "Save Settings"
+msgstr ""
+
+#: class-gfp-stripe.php:2693
+#, php-format
+msgid "%sRate this plugin%s"
+msgstr ""
+
+#: class-gfp-stripe.php:2712
+msgid "Send Me Updates"
+msgstr ""
+
+#: class-gfp-stripe.php:2723 views/form-settings-stripe-help-sidebar.php:9
+#, php-format
+msgid "Request a %snew feature%s"
+msgstr ""
+
+#: class-gfp-stripe.php:2727 views/form-settings-stripe-help-sidebar.php:6
+#, php-format
+msgid "Get %sprofessional support%s"
+msgstr ""
+
+#: class-gfp-stripe.php:2731 views/form-settings-stripe-help-sidebar.php:12
+#, php-format
+msgid "%sSetup or customize%s for me"
+msgstr ""
+
+#: class-gfp-stripe.php:2745 class-gfp-stripe.php:2749
+msgid "Uninstall Stripe Add-On"
+msgstr ""
+
+#: class-gfp-stripe.php:2747
+msgid "Warning! This operation deletes ALL Stripe Rules."
+msgstr ""
+
+#: class-gfp-stripe.php:2749
+msgid ""
+"Warning! ALL Stripe Rules will be deleted. This cannot be undone. \\'OK\\' "
+"to delete, \\'Cancel\\' to stop"
+msgstr ""
+
+#: class-gfp-stripe.php:2782
+msgid "You don't have adequate permission to uninstall the Stripe Add-On."
+msgstr ""
+
+#: class-gfp-stripe.php:2821
+msgid "Enter a name to uniquely identify this Stripe rule."
+msgstr ""
+
+#: class-gfp-stripe.php:2822
+msgid ""
+"Select which Stripe transaction type should be used. One-Time Payments, "
+"Subscription, or Billing Info Update."
+msgstr ""
+
+#: class-gfp-stripe.php:2823 views/form-settings-edit-feed.php:48
+msgid "Gravity Form"
+msgstr ""
+
+#: class-gfp-stripe.php:2823
+msgid "Select which Gravity Forms you would like to integrate with Stripe."
+msgstr ""
+
+#: class-gfp-stripe.php:2824
+msgid "Customer"
+msgstr ""
+
+#: class-gfp-stripe.php:2824
+msgid ""
+"Map your Form Fields to the available Stripe customer information fields."
+msgstr ""
+
+#: class-gfp-stripe.php:2825 views/form-settings-edit-feed.php:118
+msgid "Options"
+msgstr ""
+
+#: class-gfp-stripe.php:2825
+msgid "Turn on or off the available Stripe checkout options."
+msgstr ""
+
+#: class-gfp-stripe.php:2826
+msgid ""
+"Your gravity+ support license key is used to enable automatic updates for "
+"+(More) Stripe and receive support."
+msgstr ""
+
+#: class-gfp-stripe.php:2827
+msgid "API"
+msgstr ""
+
+#: class-gfp-stripe.php:2827
+msgid ""
+"Select the Stripe API you would like to use. Select 'Live' to use your Live "
+"API keys. Select 'Test' to use your Test API keys."
+msgstr ""
+
+#: class-gfp-stripe.php:2828
+msgid "API Test Secret Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2828
+msgid "Enter the API Test Secret Key for your Stripe account."
+msgstr ""
+
+#: class-gfp-stripe.php:2829
+msgid "API Test Publishable Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2829
+msgid "Enter the API Test Publishable Key for your Stripe account."
+msgstr ""
+
+#: class-gfp-stripe.php:2830
+msgid "API Live Secret Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2830
+msgid "Enter the API Live Secret Key for your Stripe account."
+msgstr ""
+
+#: class-gfp-stripe.php:2831
+msgid "API Live Publishable Key"
+msgstr ""
+
+#: class-gfp-stripe.php:2831
+msgid "Enter the API Live Publishable Key for your Stripe account."
+msgstr ""
+
+#: class-gfp-stripe.php:2832 views/form-settings-edit-feed.php:153
+#: views/form-settings-edit-feed.php:160
+msgid "Stripe Condition"
+msgstr ""
+
+#: class-gfp-stripe.php:2832
+msgid ""
+"When the Stripe condition is enabled, form submissions will only be sent to "
+"Stripe when the condition is met. When disabled all form submissions will be "
+"sent to Stripe."
+msgstr ""
+
+#: class-gfp-stripe.php:2833
+msgid "Funding Type"
+msgstr ""
+
+#: class-gfp-stripe.php:2833
+msgid "Select the funding types you want to accept."
+msgstr ""
+
+#: class-gfp-stripe.php:2846
+msgid "Invalid email address"
+msgstr ""
+
+#: class-gfp-stripe.php:2916
+msgid "Feed not found"
+msgstr ""
+
+#: class-gfp-stripe.php:2935
+msgid "Stripe Fields"
+msgstr ""
+
+#: class-gfp-stripe.php:2935
+msgid "Form Fields"
+msgstr ""
+
+#: class-gfp-stripe.php:2954
+msgid "First Name"
+msgstr ""
+
+#: class-gfp-stripe.php:2958
+msgid "Last Name"
+msgstr ""
+
+#: class-gfp-stripe.php:2962
+msgid "Email"
+msgstr ""
+
+#: class-gfp-stripe.php:2966
+msgid "Address"
+msgstr ""
+
+#: class-gfp-stripe.php:2970
+msgid "Address 2"
+msgstr ""
+
+#: class-gfp-stripe.php:2974
+msgid "City"
+msgstr ""
+
+#: class-gfp-stripe.php:2978
+msgid "State"
+msgstr ""
+
+#: class-gfp-stripe.php:2982
+msgid "Zip"
+msgstr ""
+
+#: class-gfp-stripe.php:2986
+msgid "Country"
+msgstr ""
+
+#: class-gfp-stripe.php:3021
+msgid "Select a field"
+msgstr ""
+
+#: class-gfp-stripe.php:3033
+msgid "Subscription Field Total"
+msgstr ""
+
+#: class-gfp-stripe.php:3199 class-gfp-stripe.php:3269
+#: class-gfp-stripe.php:3369 views/entry-detail-stripe-payment-details.php:8
+msgid "Stripe"
+msgstr ""
+
+#: class-gfp-stripe.php:3241
+msgid "Stripe rule deleted."
+msgstr ""
+
+#: class-gfp-stripe.php:3243
+msgid "There was an issue deleting this rule."
+msgstr ""
+
+#: class-gfp-stripe.php:3262
+msgid "Settings updated"
+msgstr ""
+
+#: class-gfp-stripe.php:3264
+msgid "There was an error while saving your settings"
+msgstr ""
+
+#: class-gfp-stripe.php:3280
+msgid "Ajax error while updating rule"
+msgstr ""
+
+#: class-gfp-stripe.php:3364
+#, php-format
+msgid "Rule saved successfully. %sBack to list.%s"
+msgstr ""
+
+#: class-gfp-stripe.php:3366
+msgid ""
+"There was an issue saving your rule. Please check all required information "
+"below."
+msgstr ""
+
+#: class-gfp-stripe.php:3382
+msgid "Enter value"
+msgstr ""
+
+#: class-gfp-stripe.php:3388
+msgid "Ajax error while selecting a form"
+msgstr ""
+
+#: class-gfp-stripe.php:3866
+msgid " cards are not accepted."
+msgstr ""
+
+#: class-gfp-stripe.php:3867
+msgid "Invalid card number."
+msgstr ""
+
+#: class-gfp-stripe.php:3868
+msgid " Invalid expiration date."
+msgstr ""
+
+#: class-gfp-stripe.php:3869
+msgid " Invalid security code."
+msgstr ""
+
+#: class-gfp-stripe.php:3870
+msgid " Invalid cardholder name."
+msgstr ""
+
+#: class-gfp-stripe.php:3871
+msgid "Unable to read card information"
+msgstr ""
+
+#: class-gfp-stripe.php:3920
+msgid "This form cannot process your payment. Please contact the site owner."
+msgstr ""
+
+#: class-gfp-stripe.php:3921
+msgid "Empty token"
+msgstr ""
+
+#: class-gfp-stripe.php:4349
+msgid "options: "
+msgstr ""
+
+#: views/entry-detail-stripe-payment-details.php:17
+msgid "Status"
+msgstr ""
+
+#: views/entry-detail-stripe-payment-details.php:21
+msgid "Transaction ID"
+msgstr ""
+
+#: views/entry-detail-stripe-payment-details.php:26
+msgid "Amount"
+msgstr ""
+
+#: views/field-setting-card_funding_types.php:8
+msgid "Supported Funding Types"
+msgstr ""
+
+#: views/field-setting-card_funding_types.php:14
+msgid "Credit"
+msgstr ""
+
+#: views/field-setting-card_funding_types.php:18
+msgid "Debit"
+msgstr ""
+
+#: views/field-setting-card_funding_types.php:22
+msgid "Prepaid"
+msgstr ""
+
+#: views/field-setting-card_funding_types.php:26
+msgid "Unknown"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:26
+msgid "Transaction Settings"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:56
+msgid "Select a form"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:66
+msgid ""
+"The form selected does not have any Product fields. Please add a Product "
+"field to the form and try again."
+msgstr ""
+
+#: views/form-settings-edit-feed.php:69
+msgid ""
+"The form selected does not have a credit card field. Please add a credit "
+"card field to the form and try again."
+msgstr ""
+
+#: views/form-settings-edit-feed.php:85
+msgid "Customer Information"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:93
+msgid "Billing Information"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:108
+msgid "Other Transaction Settings"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:133
+msgid "Update Post when subscription is canceled."
+msgstr ""
+
+#: views/form-settings-edit-feed.php:138
+msgid "Mark Post as Draft"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:140
+msgid "Delete Post"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:169
+msgid "Enable"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:175
+msgid "Send to Stripe if "
+msgstr ""
+
+#: views/form-settings-edit-feed.php:183
+msgid "is"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:187
+msgid "is not"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:191
+msgid "greater than"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:195
+msgid "less than"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:199
+msgid "contains"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:203
+msgid "starts with"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:207
+msgid "ends with"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:217
+msgid ""
+"To create a registration condition, your form must have a field supported by "
+"conditional logic"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:237
+msgid "Save Stripe Rule"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:237
+msgid "Update Stripe Rule"
+msgstr ""
+
+#: views/form-settings-edit-feed.php:244
+msgid "Cancel"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:3
+msgid "Gravity Forms + Stripe Basic Setup"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:6
+msgid "Make sure that Gravity Forms is activated"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:7
+#, php-format
+msgid "Add your Stripe API keys to the %sStripe settings page%s"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:8
+#, php-format
+msgid "Select and save your currency on the %sGravity Forms settings page%s"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:9
+#, php-format
+msgid ""
+"Add at least one %sProduct%s field to your form, so that your form will "
+"always submit a total amount of at least $0.50"
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:10
+#, php-format
+msgid ""
+"Add a %sCredit Card%s field to your form. If a multi-page form, make sure "
+"it's on the last page."
+msgstr ""
+
+#: views/form-settings-stripe-help-basic-setup.php:11
+#, php-format
+msgid "Create a %sStripe Rule%s for your form"
+msgstr ""
+
+#: views/form-settings-stripe-help-sidebar.php:3
+msgid "For more information:"
+msgstr ""
+
+#: views/form-settings-stripe-help-sidebar.php:17
+#, php-format
+msgid "%sFollow on Twitter%s for Gravity Forms tutorials & resources"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:5
+msgid ""
+"This page is unsecured. Do not enter a real credit card number. Use this "
+"field only for testing purposes."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:6
+msgid "Your page needs to be secured with an SSL certificate. Here's how:"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:8
+#, php-format
+msgid ""
+"Obtain an SSL certificate. You can get this from your host, or you can "
+"%spurchase your own at Namecheap for $9%s if your host allows you to use "
+"your own certificate"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:9
+msgid "Have your host install and activate the SSL certificate on your site"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:10
+#, php-format
+msgid ""
+"Use the %sWordPress HTTPS plugin%s to secure the page that contains your "
+"payment form"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:13
+msgid "This form cannot process your payment."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:14
+#, php-format
+msgid ""
+"This is a \"pretty\" error displayed when your form is in live mode and "
+"Stripe has returned an error that is unsafe to show to customers. To see the "
+"actual errors, either a) place your form in %1$stest mode%2$s or b) use the "
+"%1$sGravity Forms Logging Tool%2$s."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:15
+#, php-format
+msgid ""
+"The Gravity Forms Stripe Add-On integrates with the Gravity Forms Logging "
+"Tool (available on the %sGravity Forms Downloads page%s), allowing you to "
+"see exactly what’s going on when an error is encountered. Here’s how to set "
+"it up:"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:17
+msgid "Install and activate the Logging Tool"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:18
+#, php-format
+msgid ""
+"On the %sLogging settings page%s (Forms->Settings->Logging), turn logging on "
+"for 'Gravity Forms + Stripe'"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:19
+msgid ""
+"Once some activity has occurred on your site, you can come back to the "
+"Logging settings page and see the link to view the log"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:22
+msgid "Empty string given for card"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:23
+msgid ""
+"This plugin is required to use JavaScript, therefore the most common error "
+"is the JavaScript error also known\n"
+"as 'Empty string given for card'."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:26
+msgid ""
+"Here are a few possible reasons, listed in the order they are most likely to "
+"occur:"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:28
+msgid ""
+"Your theme (especially if purchased from Themeforest) is stripping the "
+"shortcode, preventing the Stripe JS from working. Here's what you want to "
+"look for in your theme files (the code is in yellow) and disable by placing "
+"a '//' without the quotes in front of those lines:"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:30
+#, php-format
+msgid "%sOffending lines%s"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:32
+msgid ""
+"This code may also be in a file called shortcodes.php or ThemeShortcodes.php."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:34
+msgid ""
+"Another theme or plugin is modifying the standard Gravity Forms dropdowns "
+"and removing the classes, which breaks the Stripe JS. You'll want to contact "
+"the theme author to learn how to prevent this."
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:36
+#, php-format
+msgid ""
+"You've embedded your Gravity Form directly into the page and missed one of "
+"the %sGravity Forms instructions%s — happens to the best of us!"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:38
+#, php-format
+msgid ""
+"Another plugin is preventing the JS from working. Follow the %s procedure "
+"outlined here by Gravity Forms%s in order to troubleshoot"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:40
+msgid "JavaScript is not available to browser"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:43
+msgid "Reported Conflicts"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:44
+msgid "These conflicts were last reported in 2012/2013"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:46
+msgid "plugin: Shortcodes Ultimate"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:47
+msgid "plugin: PHP Shortcode Version 1.3"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:48
+msgid "plugin: Root Relative URLs"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:51
+msgid "Still receiving an error?"
+msgstr ""
+
+#: views/form-settings-stripe-help-troubleshooting.php:52
+#, php-format
+msgid ""
+"If you have tried the troubleshooting steps and things still aren't working, "
+"you will need to %spurchase support%s"
+msgstr ""
+
+#: views/form-settings-stripe.php:11
+msgid "Update Settings"
+msgstr ""
+
+#: views/form-settings-stripe.php:17
+msgid "Rules"
+msgstr ""
+
+#: views/form-settings-stripe.php:20
+msgid "Add New"
+msgstr ""
+
+#: views/update-api-message.php:17
+msgid "I hate popups."
+msgstr ""
+
+#: views/update-api-message.php:19
+#, php-format
+msgid ""
+"But since I don't have your email address, I couldn't email you to let you "
+"know that %syou need to update your Stripe API%s for this version of Gravity "
+"Forms + Stripe."
+msgstr ""
+
+#: views/update-api-message.php:21
+msgid "And I don't want your payments to stop working."
+msgstr ""
+
+#: views/update-api-message.php:23
+#, php-format
+msgid "So %supdate your Stripe API %shere%s%s."
+msgstr ""
+
+#: views/update-api-message.php:25
+#, php-format
+msgid ""
+"Then, %slet me know what your email address is%s so I can email you "
+"important plugin updates like this, instead of having to use this ugly "
+"popup :-)"
+msgstr ""

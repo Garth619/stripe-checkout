@@ -1,0 +1,18 @@
+#gfield_settings_currency_container {
+	margin: 8px 0 0;
+	max-height: 230px;
+}
+
+#gfield_settings_currency_container {
+	border: 1px solid #DFDFDF;
+	overflow: auto;
+	padding: 2px 0 6px;
+}
+
+table td.gfield_currency_cell {
+	padding-top: 3px;
+}
+
+#gfp_stripe_form_settings table.gforms_form_settings tbody tr th {
+	vertical-align: middle;
+}

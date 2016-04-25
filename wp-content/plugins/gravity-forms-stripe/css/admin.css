@@ -1,0 +1,293 @@
+/* =========== GENERAL =========== */
+@font-face {
+	font-family: 'stripe';
+	src: url('../fonts/stripe.eot');
+}
+
+@font-face {
+	font-family: 'stripe';
+	src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype'), url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAAW8AAoAAAAABXQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAkkAAAJJnk8lek9TLzIAAANAAAAAYAAAAGAIIwe6Y21hcAAAA6AAAABMAAAATA9R4l9nYXNwAAAD7AAAAAgAAAAIAAAAEGhlYWQAAAP0AAAANgAAADb/YpbbaGhlYQAABCwAAAAkAAAAJAPiAeZobXR4AAAEUAAAABQAAAAUAwAAAG1heHAAAARkAAAABgAAAAYABVAAbmFtZQAABGwAAAEwAAABMPL4nEdwb3N0AAAFnAAAACAAAAAgAAMAAAEABAQAAQEBB3N0cmlwZQABAgABADr4HAL4GwP4GAQeCgAZU/+Lix4KABlT/4uLDAeLa/iU+HQFHQAAAHMPHQAAAHgRHQAAAAkdAAACQBIABgEBBw0PERQZc3RyaXBlc3RyaXBldTB1MXUyMHVGMTA0AAACAYkAAwAFAgABAAQABwAKAA0BuvyUDvyUDvyUDvuUDqP4dBX4ZIsFmIuWgIt+CIv7pgWLfoCBfosI/GSLBX6LgJWLmAiL96YFi5iWlpiLCJ37KhWMe5WGk4cIj4kFkYiNiouHi4aHioaLhouBjoWNCItyBZKJlYiVi5qLoY+LqIudf5GDjwiHjAWFjomMi4+Lj46Mj4uRi5WJkIkIi6MFh42CjX+Le4t4hop0CIuGBfcNYxWHi4mNi5EIi7WZi4+geYuLqG6EhnV/i4t2l4uLWwWLcZ2JlYuTi5aOkIwIi6MFiYuDiYmLCMy4FZCLkIqOigiLpwWJjIeMhouDi4aGiYUIhpVwi4srrYuLzQWNjI+NkIsIoKUViyyti4vqaYsFnJcVlYuSk4uUi5SEk4GLgYuEg4uCi4KSg5WLCNj7ARWYi6OMi7yLuHuPfYuDi4SJhoYIhpFvi4v7Fq2Li60FjoqQio+LCIjVFZGLjIiLdot2h4aFi4qLiYuJjAiLuQWNjI+NjYsI32gVuYuLlgWLsXuWdYt1i3eCi2OLXaaHoIuXi5aPj4wIi6QFhop/iIGLg4uFjouVCJKyFZGLjIKLfwh8iwWLloqVlIsIDviUFPiUFYsMCgAAAAADAgABkAAFAAABTAFmAAAARwFMAWYAAAD1ABkAhAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAEAAAPEEAeD/4P/gAeAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAOAAAAAoACAACAAIAAQAg8QT//f//AAAAAAAg8QT//f//AAH/4w8AAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAQAAIWYqMF8PPPUACwIAAAAAAM8iKv8AAAAAzyIq/wAAAAACAAHgAAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAAAIAAAAAAFAAAAUAAAAAAA4ArgABAAAAAAABAAwAAAABAAAAAAACAA4AQAABAAAAAAADAAwAIgABAAAAAAAEAAwATgABAAAAAAAFABYADAABAAAAAAAGAAYALgABAAAAAAAKACgAWgADAAEECQABAAwAAAADAAEECQACAA4AQAADAAEECQADAAwAIgADAAEECQAEAAwATgADAAEECQAFABYADAADAAEECQAGAAwANAADAAEECQAKACgAWgBzAHQAcgBpAHAAZQBWAGUAcgBzAGkAbwBuACAAMQAuADAAcwB0AHIAaQBwAGVzdHJpcGUAcwB0AHIAaQBwAGUAUgBlAGcAdQBsAGEAcgBzAHQAcgBpAHAAZQBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-stripe {
+	font-family: 'stripe';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stripe:before {
+	content: "\f104";
+}
+
+#tab_stripe .icon-stripe, #tab_Stripe .icon-stripe, .forms_page_gfp_stripe .icon-stripe, .note-avatar .icon-stripe {
+	color: #0074A2;
+}
+
+.icon-stripe {
+	font-size: 2.0em;
+	vertical-align: text-top;
+}
+
+.note-avatar .icon-stripe {
+	font-size: 48px;
+}
+
+#tab_stripe h3 {
+	font-size: 1.6em;
+}
+
+/* =========== SETTINGS PAGE =========== */
+#tab_Stripe p {
+	font-size: 14px;
+}
+
+#tab_Stripe ol {
+	list-style-type: decimal;
+	margin-top: 2em;
+}
+
+#tab_Stripe ol li {
+	list-style-type: decimal;
+	margin-bottom: 1.5em;
+	font-size: 1.1em;
+}
+
+#tab_Stripe ol li ul {
+	margin-top: 1em;
+}
+
+#tab_Stripe ol li ul li {
+	list-style-type: none;
+}
+
+#tab_Stripe .valid_credentials {
+	color: green;
+	font-size: 2.0em;
+}
+
+#tab_Stripe .invalid_credentials {
+	color: red;
+	font-size: 1.7em;
+}
+
+#tab_Stripe .invalid_key_error {
+	font-size: 1.0em;
+}
+
+#tab_Stripe .size-1 {
+	width: 400px;
+}
+
+#tab_Stripe span.strong {
+	font-weight: bold;
+}
+
+#tab_Stripe span.emphasis {
+	font-style: italic;
+}
+
+#tab_Stripe .push-alert-green {
+	text-align: left;
+	padding: 10px 26px;
+}
+
+#support-license-key {
+	margin-bottom: 15px;
+}
+
+#support-license-key th {
+	width: 220px;
+}
+
+#gfp_support_key {
+	width: 350px;
+}
+
+.setup {
+	border: 0;
+	padding: 1px 12px;
+	background-color: #fff;
+	border-left: 4px solid #0074a2;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	margin: 5px 0 15px;
+}
+
+.setup {
+	border-color: #ffba00;
+}
+
+.settings-section:hover .fa-plus-square-o, .settings-section .fa-plus-square, .settings-section .fa-minus-square {
+	display: none;
+}
+
+.settings-section:hover .fa-plus-square {
+	display: inline;
+}
+
+.toggled {
+	display: none !important;
+}
+
+#tab_Stripe .settings-section h3 {
+	margin: 1em 0;
+}
+
+#tab_Stripe .hidden {
+	margin-bottom: 100px;
+}
+
+#tab_Stripe .standalone {
+	margin-left: 17px;
+	margin-top: 30px;
+}
+
+body div#TB_window[style] {
+	width: 405px !important;
+	height: 400px !important;
+	margin-left: -202px !important;
+}
+
+body #TB_ajaxContent {
+	height: 390px !important;
+	overflow: hidden;
+	width: 405px !important;
+	padding: 0px;
+}
+
+#TB_ajaxContent p {
+	margin-bottom: 30px;
+}
+
+#gfp_stripe_sign_up {
+	padding: 30px;
+	text-align: center;
+}
+
+#gfp_stripe_sign_up #email-icon {
+	font-size: 60px;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+.gf_new_form_modal_container .setting-row {
+	margin: 0 0 10px;
+}
+
+.gf_new_form_modal_container .setting-row label {
+	line-height: 24px;
+}
+
+#gfp_stripe_sign_up input[type=text] {
+	display: block;
+	width: 100%;
+	line-height: 28px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#gfp_stripe_sign_up_submit {
+	margin: 18px 0;
+}
+
+#gfp_stripe_sign_up_error_message {
+	/*margin: 0 0 18px 5px !important;*/
+	display: block;
+	color: #BC0B0B;
+}
+
+#gfp_stripe_sign_up img.gfspinner {
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+.services {
+	margin: 0px 0 50px;
+}
+
+.service {
+margin-top: 1em;
+display: block;
+width: 100%;
+height: 45px;
+vertical-align: top;
+}
+
+/* =========== EDIT RULE PAGE =========== */
+#gfp_stripe_edit_feed_form .button-secondary {
+	vertical-align: inherit;
+}
+
+#gfp_stripe_form_settings {
+	margin-bottom: 50px;
+}
+
+/* =========== FORM SETTINGS CONTEXTUAL HELP =========== */
+#screen-meta-links {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9;
+}
+
+#screen-meta-links #contextual-help-link-wrap {
+	display: block !important;
+	background: #faaa00;
+	height: 38px;
+}
+
+#screen-meta-links #contextual-help-link {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 3px 14px 3px 14px;
+}
+
+#screen-meta-links #contextual-help-link:before {
+content: "\f104";
+color: #ffffff;
+font: 400 31px/1 stripe;
+speak: none;
+padding: 0px 8px 0 5px;
+bottom: -3px;
+position: relative;
+vertical-align: text-top;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-decoration: none!important;
+overflow: hidden;
+}
+
+#screen-meta-links #contextual-help-link:after {
+		content: "\f468";
+		color: #ffffff;
+	vertical-align: middle;
+	padding-left: 5px;
+	display: none;
+	}
+
+#contextual-help-wrap, #contextual-help-wrap p {
+	font-size: 14px;
+}
+
+#contextual-help-wrap li {
+	list-style: inherit;
+}
+
+#contextual-help-wrap .contextual-help-sidebar ul li {
+	list-style: disc;
+	margin-left: 15px;
+}

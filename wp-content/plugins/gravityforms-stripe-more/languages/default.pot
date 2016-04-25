@@ -1,0 +1,1680 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms + (More) Stripe\n"
+"POT-Creation-Date: 2015-03-18 00:05-0500\n"
+"PO-Revision-Date: 2015-03-18 00:06-0500\n"
+"Last-Translator: Naomi C. Bush <hello@naomicbush.com>\n"
+"Language-Team: gravity+ <support@gravityplus.pro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: more-stripe.php:84
+msgid "More Stripe requires at least Gravity Forms + Stripe "
+msgstr ""
+
+#: more-stripe.php:98
+msgid "More Stripe requires at least Gravity Forms "
+msgstr ""
+
+#: more-stripe.php:371
+msgid "You must install and activate Gravity Forms + Stripe first."
+msgstr ""
+
+#: more-stripe.php:518
+#: includes/form-settings/views/stripe-feed-before-billing.php:10
+msgid "Subscription Plan"
+msgstr ""
+
+#: more-stripe.php:518
+msgid "Select which field determines the subscription plan."
+msgstr ""
+
+#: more-stripe.php:519
+msgid "Free Trial No Credit Card Required"
+msgstr ""
+
+#: more-stripe.php:519
+msgid ""
+"Select this option if your subscription plan will have a free trial and "
+"you'd like your customer to be able to subscribe without providing a credit "
+"card."
+msgstr ""
+
+#: more-stripe.php:520
+msgid "Enable Coupons"
+msgstr ""
+
+#: more-stripe.php:520
+msgid ""
+"When coupons are enabled, the mapped coupon field will be checked for a "
+"valid coupon to be submitted to Stripe with the subscription"
+msgstr ""
+
+#: more-stripe.php:521
+msgid "Apply Coupon"
+msgstr ""
+
+#: more-stripe.php:521
+msgid ""
+"Select whether you want to apply this coupon immediately, or after the first "
+"period."
+msgstr ""
+
+#: more-stripe.php:522
+msgid "End Subscription"
+msgstr ""
+
+#: more-stripe.php:522
+msgid ""
+"If you'd like to end the subscription after a certain number of payments, "
+"select the field which contains that number"
+msgstr ""
+
+#: more-stripe.php:523
+msgid "Enable Setup Fee"
+msgstr ""
+
+#: more-stripe.php:523
+msgid ""
+"When a setup fee is enabled, the mapped setup fee field will be submitted to "
+"Stripe as a one-time charge on your customer's first invoice"
+msgstr ""
+
+#: more-stripe.php:524
+#: includes/form-settings/views/stripe-feed-alternate-charge-options.php:10
+msgid "Alternate Charge Option"
+msgstr ""
+
+#: more-stripe.php:524
+msgid ""
+"*Instead of* charging a customer's card when the form is submitted, you can "
+"choose to save the credit card information *only* or just authorize the "
+"amount on the card (which will expire after 7 days)"
+msgstr ""
+
+#: more-stripe.php:525
+msgid "Do Not Prorate"
+msgstr ""
+
+#: more-stripe.php:525
+msgid ""
+"By default, Stripe prorates subscription changes. For example, if a customer "
+"signs up on May 1 for a $10 plan, she'll be billed $10 immediately. If she "
+"then switches to a $20 plan on May 15, on June 1 she'll be billed $25 ($20 "
+"for a renewal of her subscription and a $5 prorating adjustment for the "
+"previous month). Similarly, a downgrade will generate a credit to be applied "
+"to the next invoice. Stripe also prorates when you make quantity changes. "
+"Check this box if you do *not* want subscription changes to be prorated. "
+"Using the example, this would mean the customer would be billed $10 on May 1 "
+"and $20 on June 1."
+msgstr ""
+
+#: more-stripe.php:526
+msgid "Charge Immediately"
+msgstr ""
+
+#: more-stripe.php:526
+msgid ""
+"Switching plans does not change the billing date or generate an immediate "
+"charge unless you're switching between different intervals (e.g. monthly to "
+"yearly). Check this box if instead you'd like to charge for an upgrade "
+"immediately."
+msgstr ""
+
+#: more-stripe.php:527
+msgid "Delay Subscription Cancelation"
+msgstr ""
+
+#: more-stripe.php:527
+msgid ""
+"By default, Stripe terminates the subscription immediately when it is "
+"canceled. Check this box if you'd like the subscription to remain active "
+"until the end of the period, at which point it will be canceled and not "
+"renewed. Note, however, that any pending invoice items that you've created "
+"will still be charged for at the end of the period unless manually deleted. "
+"Also, any pending prorations will also be left in place and collected at the "
+"end of the period, instead of removed."
+msgstr ""
+
+#: more-stripe.php:528
+msgid "Automatically Log In New User"
+msgstr ""
+
+#: more-stripe.php:528
+msgid ""
+"Check this box to automatically log in the new user created with this form "
+"submission. This is helpful for things like upselling, so that credit card "
+"information is automatically filled in on form redirect."
+msgstr ""
+
+#: more-stripe.php:529
+msgid "Disable Saving New Users"
+msgstr ""
+
+#: more-stripe.php:529
+msgid ""
+"Check this box to disable saving Stripe customers as a new user for this "
+"form."
+msgstr ""
+
+#: more-stripe.php:530
+msgid "Stripe subscription product?"
+msgstr ""
+
+#: more-stripe.php:530
+msgid "Use this product as a Stripe subscription"
+msgstr ""
+
+#: more-stripe.php:531
+msgid "Create New Stripe Plan"
+msgstr ""
+
+#: more-stripe.php:531
+msgid "Create a new Stripe plan"
+msgstr ""
+
+#: more-stripe.php:535 more-stripe.php:1040
+msgid "User Registration"
+msgstr ""
+
+#: more-stripe.php:535
+msgid ""
+"The selected form also has a User Registration feed. These options allow you "
+"to specify how you would like the Stripe and User Registration Add-ons to "
+"work together."
+msgstr ""
+
+#: more-stripe.php:756
+msgid "Settings"
+msgstr ""
+
+#: more-stripe.php:855
+msgid "Gravity Forms "
+msgstr ""
+
+#: more-stripe.php:862
+msgid "Gravity Forms + Stripe "
+msgstr ""
+
+#: more-stripe.php:878
+#, php-format
+msgid ""
+"%sRegister%s your copy of Gravity Forms + (More) Stripe to receive access to "
+"automatic updates and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: more-stripe.php:1053
+msgid "Update <strong>user</strong> when subscription is cancelled."
+msgstr ""
+
+#: more-stripe.php:1061
+#, php-format
+msgid "Set User as %s"
+msgstr ""
+
+#: more-stripe.php:1073
+msgid "Update <strong>site</strong> when subscription is cancelled."
+msgstr ""
+
+#: more-stripe.php:1078
+msgid "Deactivate"
+msgstr ""
+
+#: more-stripe.php:1079
+#: includes/customer-account-view/class-customer-account-view.php:199
+msgid "Delete"
+msgstr ""
+
+#: more-stripe.php:1083
+#, php-format
+msgid "%s site"
+msgstr ""
+
+#: more-stripe.php:1120
+msgid "Downgrading Stripe user..."
+msgstr ""
+
+#: more-stripe.php:1124
+msgid "Multisite, getting created site ID"
+msgstr ""
+
+#: more-stripe.php:1146
+msgid "Getting user ID from entry"
+msgstr ""
+
+#: more-stripe.php:1162
+msgid "Multisite, switching back to main site"
+msgstr ""
+
+#: more-stripe.php:1229
+#, php-format
+msgid ""
+"Gravity Forms + (More) Stripe has been successfully uninstalled. It can be "
+"re-activated from the %splugins page%s."
+msgstr ""
+
+#: more-stripe.php:1324
+#: includes/form-settings/views/stripe-feed-transaction-type.php:16
+msgid "One-Time Payment"
+msgstr ""
+
+#: more-stripe.php:1328
+#: includes/form-settings/views/stripe-feed-transaction-type.php:18
+msgid "Subscription"
+msgstr ""
+
+#: more-stripe.php:1332
+#: includes/form-settings/views/stripe-feed-transaction-type.php:20
+msgid "Billing Info Update"
+msgstr ""
+
+#: more-stripe.php:1336
+#: includes/form-settings/views/stripe-feed-transaction-type.php:22
+msgid "Subscription Update"
+msgstr ""
+
+#: more-stripe.php:1365
+msgid "Enter Metadata Key Name"
+msgstr ""
+
+#: more-stripe.php:1366
+msgid "Add another metadata field"
+msgstr ""
+
+#: more-stripe.php:1367
+msgid "Remove this metadata field"
+msgstr ""
+
+#: more-stripe.php:1569
+#: includes/currency/class-gfp-more-stripe-currency.php:388
+msgid "Select a field"
+msgstr ""
+
+#: more-stripe.php:1714
+msgid "Test"
+msgstr ""
+
+#: more-stripe.php:1715
+msgid "Live"
+msgstr ""
+
+#: more-stripe.php:1719
+msgid "Ajax error while updating Stripe mode"
+msgstr ""
+
+#: more-stripe.php:1773
+msgid "Currencies"
+msgstr ""
+
+#: more-stripe.php:1999
+msgid "Using a saved credit card. Ignore previous empty token error."
+msgstr ""
+
+#: more-stripe.php:2011
+msgid ""
+"Using a Stripe rule with no credit card required. Ignore previous empty "
+"token error."
+msgstr ""
+
+#: more-stripe.php:2843
+msgid "You must be logged in to update your billing info."
+msgstr ""
+
+#: more-stripe.php:2901
+#, php-format
+msgid ""
+"Customer %1$s <strong>updated</strong> their billing info to <em>%2$s ending "
+"in %3$s</em>"
+msgstr ""
+
+#: more-stripe.php:2930
+msgid "You must be logged in to update your subscription."
+msgstr ""
+
+#: more-stripe.php:2968
+msgid "No active subscriptions to update. Please contact site owner"
+msgstr ""
+
+#: more-stripe.php:3069
+#, php-format
+msgid ""
+"Customer %1$s <strong>updated</strong> subscription to %2$s plan (%3$01.2f/"
+"%4$s), quantity %5$d"
+msgstr ""
+
+#: more-stripe.php:3094
+msgid ""
+"This form cannot process your subscription update. Please contact site owner"
+msgstr ""
+
+#: more-stripe.php:3208 more-stripe.php:3381 more-stripe.php:3407
+#: more-stripe.php:3416
+msgid "This form cannot process your user info. Please contact site owner"
+msgstr ""
+
+#: more-stripe.php:3235
+msgid ""
+"Subscription canceled, but no entry ID was given so unable to do canceled "
+"subscription actions or update entry"
+msgstr ""
+
+#: more-stripe.php:3261
+#, php-format
+msgid ""
+"Subscription for %1$s set to <strong>cancel</strong> at the end of the "
+"period on %2$s"
+msgstr ""
+
+#: more-stripe.php:3291
+#, php-format
+msgid "Unable to Charge Immediately for Subscription Update: %s"
+msgstr ""
+
+#: more-stripe.php:3292 more-stripe.php:3309 more-stripe.php:4396
+#, php-format
+msgid "Customer ID: %s\r\n"
+msgstr ""
+
+#: more-stripe.php:3293 more-stripe.php:3310
+msgid ""
+"This customer updated their subscription but the attempt to charge them "
+"immediately failed.\r\n"
+msgstr ""
+
+#: more-stripe.php:3308
+msgid "Unable to Charge Immediately for Subscription Update"
+msgstr ""
+
+#: more-stripe.php:3558
+#, php-format
+msgid "%s's subscription %s has been <strong>canceled</strong>."
+msgstr ""
+
+#: more-stripe.php:4393
+#, php-format
+msgid "Unable to Create WordPress User for New Stripe Customer: %s"
+msgstr ""
+
+#: more-stripe.php:4394
+#, php-format
+msgid "Form: %s\\%s\r\n"
+msgstr ""
+
+#: more-stripe.php:4395
+#, php-format
+msgid "Entry ID: %s\r\n"
+msgstr ""
+
+#: more-stripe.php:4650
+msgid "Cancel Subscription"
+msgstr ""
+
+#: more-stripe.php:4650
+msgid ""
+"Warning! This Stripe Subscription will be canceled. This cannot be undone. "
+"\\'OK\\' to cancel subscription, \\'Cancel\\' to stop"
+msgstr ""
+
+#: more-stripe.php:4660
+msgid "Canceled (at period end)"
+msgstr ""
+
+#: more-stripe.php:4661
+msgid "The subscription could not be canceled: "
+msgstr ""
+
+#: more-stripe.php:4753
+msgid "This is not a valid coupon."
+msgstr ""
+
+#: more-stripe.php:4760
+msgid "This coupon is no longer valid."
+msgstr ""
+
+#: more-stripe.php:4796
+msgid "This form cannot process this coupon. Please contact site owner."
+msgstr ""
+
+#: more-stripe.php:4868
+msgid "Stripe"
+msgstr ""
+
+#: more-stripe.php:4886
+msgid "Charge Customer"
+msgstr ""
+
+#: more-stripe.php:4886
+msgid ""
+"Warning! This customer\\'s card will be charged. This cannot be undone. \\'OK"
+"\\' to charge card, \\'Cancel\\' to stop"
+msgstr ""
+
+#: more-stripe.php:4898
+msgid "Charge successful!"
+msgstr ""
+
+#: more-stripe.php:4899
+msgid "The customer could not be charged. Please try again later."
+msgstr ""
+
+#: more-stripe.php:4933
+msgid "There is no transaction for this entry"
+msgstr ""
+
+#: more-stripe.php:5048
+#, php-format
+msgid ""
+"<em>%1$s</em> was successfully <strong>charged</strong> <em>%2$s</em> (%3$s) "
+"for post."
+msgstr ""
+
+#: more-stripe.php:5119
+msgid "You must first uninstall Stripe additional feature plugins."
+msgstr ""
+
+#: more-stripe.php:5134
+msgid "You don't have adequate permission to uninstall the More Stripe Add-On."
+msgstr ""
+
+#: plugin-upgrade.php:100
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: plugin-upgrade.php:117
+msgid ""
+"An unexpected error occurred. Unable to find version details for this "
+"plugin. Please contact gravity+ Support."
+msgstr ""
+
+#: includes/api/class-helper.php:76
+#, php-format
+msgid ""
+"Inserting new user — user_login: %s, first_name: %s, last_name: %s, "
+"user_email: %s"
+msgstr ""
+
+#: includes/api/class-helper.php:170
+msgid "ending in "
+msgstr ""
+
+#: includes/api/class-stripe-api.php:83
+msgid "United States Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:93
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:103
+msgid "Afghan Afghani"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:113
+msgid "Albanian Lek"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:123
+msgid "Armenian Dram"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:133
+msgid "Netherlands Antillean Gulden"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:143
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:153
+msgid "Argentine Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:163
+msgid "Australian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:173
+msgid "Aruban Florin"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:183
+msgid "Azerbaijani Manat"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:193
+msgid "Bosnia & Herzegovina Convertible Mark"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:203
+msgid "Barbadian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:213
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:223
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:233
+msgid "Burundian Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:243
+msgid "Bermudian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:253
+msgid "Brunei Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:263
+msgid "Bolivian Boliviano"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:273
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:283
+msgid "Bahamian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:293
+msgid "Botswana Pula"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:303
+msgid "Belize Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:313
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:323
+msgid "Congolese Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:333
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:343
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:353
+msgid "Chinese Renminbi Yuan"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:363
+msgid "Colombian Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:373
+msgid "Costa Rican Colón"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:383
+msgid "Cape Verdean Escudo"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:393
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:403
+msgid "Djiboutian Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:413
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:423
+msgid "Dominican Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:433
+msgid "Algerian Dinar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:443
+msgid "Estonian Kroon"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:453
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:463
+msgid "Ethiopian Birr"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:473
+msgid "Euro"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:483
+msgid "Fijian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:493
+msgid "Falkland Islands Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:503
+msgid "British Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:513
+msgid "Georgian Lari"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:523
+msgid "Gibraltar Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:533
+msgid "Gambian Dalasi"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:543
+msgid "Guinean Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:553
+msgid "Guatemalan Quetzal"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:563
+msgid "Guyanese Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:573
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:583
+msgid "Honduran Lempira"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:593
+msgid "Croatian Kuna"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:603
+msgid "Haitian Gourde"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:613
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:623
+msgid "Indonesian Rupiah"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:633
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:643
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:653
+msgid "Icelandic Króna"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:663
+msgid "Jamaican Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:673
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:683
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:693
+msgid "Kyrgyzstani Som"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:703
+msgid "Cambodian Riel"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:713
+msgid "Comorian Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:723
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:733
+msgid "Cayman Islands Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:743
+msgid "Kazakhstani Tenge"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:753
+msgid "Lao Kip"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:763
+msgid "Lebanese Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:773
+msgid "Sri Lankan Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:783
+msgid "Liberian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:793
+msgid "Lesotho Loti"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:803
+msgid "Lithuanian Litas"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:813
+msgid "Latvian Lats"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:823
+msgid "Moroccan Dirham"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:833
+msgid "Moldovan Leu"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:843
+msgid "Malagasy Ariary"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:853
+msgid "Macedonian Denar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:863
+msgid "Mongolian Tögrög"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:873
+msgid "Macanese Pataca"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:883
+msgid "Mauritanian Ouguiya"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:893
+msgid "Mauritian Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:903
+msgid "Maldivian Rufiyaa"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:913
+msgid "Malawian Kwacha"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:923
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:933
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:943
+msgid "Mozambican Metical"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:953
+msgid "Namibian Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:963
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:973
+msgid "Nicaraguan Córdoba"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:983
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:993
+msgid "Nepalese Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1003
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1013
+msgid "Panamanian Balboa"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1023
+msgid "Peruvian Nuevo Sol"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1033
+msgid "Papua New Guinean Kina"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1043
+msgid "Philippine Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1053
+msgid "Pakistani Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1063
+msgid "Polish Złoty"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1073
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1083
+msgid "Qatari Riyal"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1093
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1103
+msgid "Serbian Dinar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1113
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1123
+msgid "Rwandan Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1133
+msgid "Saudi Riyal"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1143
+msgid "Solomon Islands Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1153
+msgid "Seychellois Rupee"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1163
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1173
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1183
+msgid "Saint Helenian Pound"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1193
+msgid "Sierra Leonean Leone"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1203
+msgid "Somali Shilling"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1213
+msgid "Surinamese Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1223
+msgid "São Tomé and Príncipe Dobra"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1233
+msgid "Salvadoran Colón"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1243
+msgid "Swazi Lilangeni"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1253
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1263
+msgid "Tajikistani Somoni"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1273
+msgid "Tongan Paʻanga"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1283
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1293
+msgid "Trinidad and Tobago Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1303
+msgid "New Taiwan Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1313
+msgid "Tanzanian Shilling"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1323
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1333
+msgid "Ugandan Shilling"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1343
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1353
+msgid "Uzbekistani Som"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1363
+msgid "Venezuelan Bolívar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1373
+msgid "Vietnamese Đồng"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1383
+msgid "Vanuatu Vatu"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1393
+msgid "Samoan Tala"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1403
+msgid "Central African Cfa Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1413
+msgid "East Caribbean Dollar"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1423
+msgid "West African Cfa Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1433
+msgid "Cfp Franc"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1443
+msgid "Yemeni Rial"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1453
+msgid "South African Rand"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1463
+msgid "Zambian Kwacha"
+msgstr ""
+
+#: includes/api/class-stripe-api.php:1638
+#: includes/api/class-stripe-api.php:1756
+#: includes/api/class-stripe-api.php:1911
+#: includes/api/class-stripe-api.php:2043
+#: includes/api/class-stripe-api.php:2235
+#: includes/api/class-stripe-api.php:2533
+#: includes/api/class-stripe-api.php:2565
+#: includes/api/class-stripe-api.php:2579
+#: includes/api/class-stripe-api.php:2720
+msgid "Unable to process your request"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-converter.php:37
+#: includes/currency/class-gfp-more-stripe-currency-field.php:43
+#, php-format
+msgid "There is already an instance of %s."
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-converter.php:89
+msgid "Retrieving current conversion rates"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-converter.php:94
+msgid "Empty response"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-converter.php:149
+msgid "Unable to add currency field JS"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:49
+#: includes/currency/class-gfp-more-stripe-currency-field.php:295
+#: includes/currency/class-gfp-more-stripe-currency-field.php:296
+#: includes/currency/class-gfp-more-stripe-currency-field.php:330
+#: includes/currency/views/field-setting-currency-settings.php:5
+#: includes/currency/views/field-setting-currency-settings.php:24
+#: includes/currency/views/stripe-feed-override-currency.php:10
+msgid "Currency"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:284
+msgid "Select a currency"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:295
+msgid ""
+"Select the currency that will be used for the payments submitted by this "
+"form."
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:296
+msgid ""
+"Select which currencies are displayed. You can choose to display all of them "
+"or select individual ones."
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:297
+msgid "Override Default Currency"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:297
+msgid ""
+"When the currency override is enabled, the charges for this form will be "
+"submitted with the currency in the selected field. **Note** You and your "
+"customer may be charged an <a href=\"https://support.stripe.com/questions/"
+"which-currencies-does-stripe-support\" target=\"_blank\">extra fee for "
+"conversions & foreign transactions</a>."
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:486
+#: includes/currency/class-gfp-more-stripe-currency-field.php:490
+msgid "Quantity:"
+msgstr ""
+
+#: includes/currency/class-gfp-more-stripe-currency-field.php:502
+msgid "Price"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:13
+msgid "Field Type"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:17
+msgid "Drop Down"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:18
+msgid "Radio Buttons"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:30
+msgid "All Currencies"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:33
+msgid "Select Currencies"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:54
+msgid "Display placeholder"
+msgstr ""
+
+#: includes/currency/views/field-setting-currency-settings.php:60
+msgid "Placeholder Label"
+msgstr ""
+
+#: includes/currency/views/form-settings-currency.php:5
+msgid "Form Currency"
+msgstr ""
+
+#: includes/currency/views/stripe-feed-override-currency.php:20
+msgid "Override Default"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:111
+msgid "None"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:119
+msgid "Current Subscription(s)"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:138
+#: includes/customer-account-view/class-customer-account-view.php:185
+msgid "Update"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:155
+msgid "Cancel"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:176
+msgid "Payment Method(s)"
+msgstr ""
+
+#: includes/customer-account-view/class-customer-account-view.php:215
+msgid "Payment History"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:8
+#: includes/entries/entry-detail-stripe-payment-details.php:34
+#: includes/events/class-stripe-event.php:627
+msgid "Status"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:12
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:17
+msgid "Amount"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:24
+msgid "Customer ID"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:31
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:38
+msgid "ID"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:43
+#: includes/events/class-stripe-event.php:585
+msgid "Plan"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:52
+#: includes/form-settings/views/stripe-feed-setup-fee.php:10
+msgid "Setup Fee"
+msgstr ""
+
+#: includes/entries/entry-detail-stripe-payment-details.php:60
+msgid "Scheduled Payments"
+msgstr ""
+
+#: includes/events/class-event-handler.php:637
+msgid "Stripe one-time payment failed"
+msgstr ""
+
+#: includes/events/class-event-handler.php:638
+msgid "Stripe subscription payment failed"
+msgstr ""
+
+#: includes/events/class-event-handler.php:639
+msgid "Stripe subscription payment succeeded"
+msgstr ""
+
+#: includes/events/class-event-handler.php:640
+msgid "Stripe subscription changed"
+msgstr ""
+
+#: includes/events/class-event-handler.php:641
+msgid "Stripe subscription ended"
+msgstr ""
+
+#: includes/events/class-event-handler.php:642
+msgid "Stripe subscription trial will end in 3 days"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:541
+#, php-format
+msgid ""
+"Uh oh! Charge %1$s for <em>%2$s</em> <strong>failed</strong> with <em>%3$s</"
+"em>. Reason: %4$s"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:550
+#, php-format
+msgid ""
+"Charge %1$s was <strong>refunded</strong> <em>%2$s</em> to <em>%3$s</em>."
+msgstr ""
+
+#: includes/events/class-stripe-event.php:554
+#, php-format
+msgid ""
+"Success! Charge %1$s for <em>%2$s</em> was <strong>captured</strong> with "
+"<em>%3$s</em>."
+msgstr ""
+
+#: includes/events/class-stripe-event.php:591
+msgid "Coupon"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:597
+msgid "Prorate"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:603
+msgid "End of Trial"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:609
+msgid "Start of Trial"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:615
+msgid "Card"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:619
+msgid "Quantity"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:623
+msgid "Application Fee Percent"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:631
+msgid "Start Date"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:637
+msgid "Cancel At Period End"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:643
+msgid "Canceled At"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:649
+msgid "End of Current Period"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:655
+msgid "Start of Current Period"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:662
+#, php-format
+msgid "%1$s: %2$s &#10142; %3$s<br /><br />"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:666
+#, php-format
+msgid "%1$s's subscription %2$s was <strong>updated</strong>.%3$s"
+msgstr ""
+
+#: includes/events/class-stripe-event.php:670
+#, php-format
+msgid "%1$s's subscription %2$s <strong>trial will end</strong> <em>%3$s</em>."
+msgstr ""
+
+#: includes/events/class-stripe-event.php:719
+#, php-format
+msgid ""
+"Uh oh! %1$s's invoice %2$s for period %3$s (%4$s) <strong>failed</strong> "
+"payment with <em>%5$s</em>. The next payment attempt will be %6$s."
+msgstr ""
+
+#: includes/events/class-stripe-event.php:723
+#, php-format
+msgid ""
+"Success! %1$s's invoice %2$s for period %3$s (%4$s) was successfully "
+"<strong>paid</strong> with <em>%5$s</em>"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:7
+msgid "Create plan for this subscription product"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:25
+msgid "Select an interval"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:26
+msgid "Daily"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:27
+msgid "Weekly"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:28
+msgid "Monthly"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-create_stripe_plan.php:29
+msgid "Yearly"
+msgstr ""
+
+#: includes/form-editor/views/field-setting-enable_stripe_subscription.php:7
+msgid "Stripe subscription product"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-after-transaction-type.php:9
+msgid "No Credit Card Required"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-after-transaction-type.php:19
+#: includes/form-settings/views/stripe-feed-coupons.php:20
+#: includes/form-settings/views/stripe-feed-custom-metadata.php:20
+#: includes/form-settings/views/stripe-feed-setup-fee.php:19
+msgid "Enable"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-alternate-charge-options.php:19
+msgid "Save Cards Only"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-alternate-charge-options.php:20
+msgid "Authorize Only"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-coupons.php:10
+msgid "Coupons"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-coupons.php:26
+msgid "Apply"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-coupons.php:31
+msgid "Immediately"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-coupons.php:37
+msgid "After 1st period"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-custom-metadata.php:10
+msgid "Custom Metadata"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-options-disable-new-users.php:10
+msgid "Disable saving Stripe customers as WP users for this form."
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-options-new-users.php:10
+msgid "Automatically log in new user."
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-options-update-subscription.php:10
+msgid "Do not prorate."
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-options-update-subscription.php:16
+msgid "Charge upgrade immediately."
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-options-update-subscription.php:22
+msgid "Delay subscription cancelation."
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-subscription-end.php:10
+msgid "End Subscription (Split Payments)"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-transaction-type.php:7
+msgid "Transaction Type"
+msgstr ""
+
+#: includes/form-settings/views/stripe-feed-transaction-type.php:14
+msgid "Select a transaction type"
+msgstr ""
+
+#: includes/importer/class-importer.php:131
+msgid "No form ID"
+msgstr ""
+
+#: includes/importer/class-importer.php:136
+msgid "Select Stripe rule"
+msgstr ""
+
+#: includes/importer/class-importer.php:153
+msgid ""
+"Import complete. A report has been sent to your admin email. Or, you can "
+"check the log if the Logging Add-On is enabled."
+msgstr ""
+
+#: includes/importer/class-importer.php:172
+msgid "IMPORTER: Stripe customer import triggered..."
+msgstr ""
+
+#: includes/importer/class-importer.php:245
+#, php-format
+msgid ""
+"IMPORTER: Retrieved %d customers from your Stripe account. Now saving "
+"customer data."
+msgstr ""
+
+#: includes/importer/class-importer.php:247
+#, php-format
+msgid "Retrieved %d customers from your Stripe account."
+msgstr ""
+
+#: includes/importer/class-importer.php:253
+msgid "Stripe customer does not have an email address."
+msgstr ""
+
+#: includes/importer/class-importer.php:262
+msgid ""
+"IMPORTER: Email address or user ID in this Stripe customer's metadata is a "
+"WP user?"
+msgstr ""
+
+#: includes/importer/class-importer.php:268
+msgid "IMPORTER: Stripe customer ID saved to this user?"
+msgstr ""
+
+#: includes/importer/class-importer.php:276
+#: includes/importer/class-importer.php:306
+msgid "IMPORTER: This customer is already saved. Moving on to next customer."
+msgstr ""
+
+#: includes/importer/class-importer.php:278
+#: includes/importer/class-importer.php:308
+#, php-format
+msgid "%s already exists as user %d"
+msgstr ""
+
+#: includes/importer/class-importer.php:282
+msgid ""
+"IMPORTER: There is a customer ID for this user, but it is not this customer "
+"ID. Saving customer ID to this WP user."
+msgstr ""
+
+#: includes/importer/class-importer.php:288
+msgid ""
+"IMPORTER: There are multiple customer IDs for this user ID. Let's see if "
+"this is one of them"
+msgstr ""
+
+#: includes/importer/class-importer.php:312
+msgid ""
+"IMPORTER: this customer ID was not saved to this user. Saving customer ID to "
+"this WP user."
+msgstr ""
+
+#: includes/importer/class-importer.php:322
+msgid ""
+"IMPORTER: No customer ID found. Saving Stripe information to this WP user."
+msgstr ""
+
+#: includes/importer/class-importer.php:331
+msgid "No. Creating new WP user"
+msgstr ""
+
+#: includes/importer/class-importer.php:358
+msgid "Finished saving customer data. Sending email."
+msgstr ""
+
+#: includes/importer/class-importer.php:361
+msgid "[gravity+] Import Stripe Customers to WordPress REPORT"
+msgstr ""
+
+#: includes/importer/class-importer.php:608
+#: includes/importer/class-importer.php:625
+msgid "Making it the default customer ID for this user"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:16
+msgid "Import Customers from Stripe"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:21
+msgid ""
+"This operation retrieves your customers from Stripe, and — if the customer "
+"has an email address that is not already attached to one of your site users "
+"— creates a WordPress user for each customer, saving their currency, cards, "
+"and subscriptions for use here on your site."
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:23
+msgid ""
+"The WordPress user will be created with the 'Stripe Customer' role that has "
+"no capabilities, and a full report will be emailed to the admin email "
+"address for this site, showing each customer and the information that was "
+"imported (and if there were any errors)."
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:26
+msgid "Select the form that holds your subscription notifications:"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:28
+msgid "Select form"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:33
+msgid "Select the Stripe rule that holds your user upgrade/downgrade actions:"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:40
+msgid "Import Stripe Customers"
+msgstr ""
+
+#: includes/importer/views/settings-page-import.php:41
+msgid ""
+"Just confirming one more time that you\\'d like to import your Stripe "
+"customers as WordPress users. \\'OK\\' to import, \\'Cancel\\' to stop"
+msgstr ""
+
+#: includes/integrations/cpac/class-cpac-column-user-stripe_cards.php:16
+msgid "Stripe Cards"
+msgstr ""
+
+#: includes/integrations/cpac/class-cpac-column-user-stripe_customer_id.php:16
+msgid "Stripe Customer ID"
+msgstr ""
+
+#: includes/integrations/cpac/class-cpac-column-user-stripe_subscriptions.php:16
+msgid "Stripe Subscriptions"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-additional-options.php:13
+msgid "Additional Options"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-additional-options.php:22
+msgid "Disable saving Stripe customers as WP users."
+msgstr ""
+
+#: includes/settings-page/views/settings-page-additional-options.php:30
+msgid "Enable <strong>Early Access</strong> to new features"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-uninstall.php:10
+#: includes/settings-page/views/settings-page-uninstall.php:15
+msgid "Uninstall (More) Stripe"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-uninstall.php:13
+msgid ""
+"Warning! This operation deletes ALL (More) Stripe Rules and saved Stripe "
+"customer data."
+msgstr ""
+
+#: includes/settings-page/views/settings-page-uninstall.php:15
+msgid ""
+"Warning! ALL (More) Stripe Rules will be deleted. This cannot be undone. "
+"\\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:13
+msgid "Stripe Webhook Setup"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:17
+msgid ""
+"To receive information and send notifications about a customer subscription "
+"and other events from Stripe, you must create a webhook for this site in "
+"your Stripe dashboard 'Account Settings'. Follow the steps below to confirm."
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:21
+#, php-format
+msgid ""
+"Navigate to your Stripe dashboard's %sAccount Settings->Webhooks page%s."
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:22
+#, php-format
+msgid ""
+"Click the 'Add URL' button and enter the following URL, with the mode "
+"underneath the URL box set as 'Test': %s"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:23
+msgid ""
+"Click the 'Add URL' button and enter the same URL, with the mode underneath "
+"the URL box set as 'Live'"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:24
+msgid ""
+"Once your webhooks are setup and see your site's webhook URL listed twice — "
+"once for Test mode and once for Live mode — check the confirmation box below "
+"and you are ready to go!"
+msgstr ""
+
+#: includes/settings-page/views/settings-page-webhook-setup.php:33
+msgid "Both Stripe webhooks are setup in my Stripe dashboard."
+msgstr ""

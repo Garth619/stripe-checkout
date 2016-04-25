@@ -34,6 +34,12 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
 	
 	<div class="page_one">
+		
+		
+		<div class="big_banner">
+			
+		
+		<div class="form_wrapper">
 
 	<?php if ( sizeof( $checkout->checkout_fields ) > 0 ) : ?>
 
@@ -53,9 +59,13 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 
 	<?php endif; ?>
 
-<!-- 	<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3> -->
+<span class="get_my_package">Get My Package</span>
 
-	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
+		</div><!-- form_wrapper -->
+	
+	
+	</div><!-- big_banner -->
+
 
 	
 </div><!-- page_one -->
@@ -63,7 +73,9 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 <div class="page_two">
 	
 	
-	
+	<!-- 	<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3> -->
+
+	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 	
 	
 	<div id="order_review" class="woocommerce-checkout-review-order">
